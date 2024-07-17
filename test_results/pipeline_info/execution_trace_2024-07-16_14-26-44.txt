@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+3	d1/cdad6c	-	NFCORE_ASPA:ASPA:FASTQC (SAMPLE3_SE)	FAILED	-	-	-	-	-	-	-	-	-

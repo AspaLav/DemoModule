@@ -22,6 +22,7 @@ include { PIPELINE_INITIALISATION } from './subworkflows/local/utils_nfcore_aspa
 include { PIPELINE_COMPLETION     } from './subworkflows/local/utils_nfcore_aspa_pipeline'
 
 include { getGenomeAttribute      } from './subworkflows/local/utils_nfcore_aspa_pipeline'
+include { HELLO }                   from './modules/local/hello'
 
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,6 +84,10 @@ workflow {
         params.outdir,
         params.input
     )
+
+    //
+    //MODULE: Hello Message
+    HELLO(name: "nf-core user")
 
     //
     // WORKFLOW: Run main workflow

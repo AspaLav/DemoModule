@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	69/5a4de9	133923	HELLO	COMPLETED	0	2024-07-19 13:39:43.278	357ms	26ms	66.7%	0	0	145.6 KB	220 B

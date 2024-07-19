@@ -1,4 +1,6 @@
 process HELLO {
+    memory '1 GB'  // Adjust memory request here
+    
     input:
     val name
 

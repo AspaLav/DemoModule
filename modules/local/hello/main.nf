@@ -7,6 +7,6 @@ process HELLO {
 
     script:
     """
-    echo "Hello, $name!" > hello.txt
+    echo "Hello, module!" > hello.txt
     """
 }

@@ -1,0 +1,4 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	a6/0f06cc	2816	HELLO	COMPLETED	0	2024-07-17 13:37:02.268	984ms	113ms	34.1%	0	0	138.8 KB	225 B
+4	c9/afdb87	2906	NFCORE_ASPA:ASPA:FASTQC (SAMPLE3_SE)	FAILED	126	2024-07-17 13:37:04.381	912ms	819ms	-	-	-	-	-
+3	db/3b0806	2948	NFCORE_ASPA:ASPA:FASTQC (SAMPLE2_PE)	FAILED	126	2024-07-17 13:37:05.425	614ms	531ms	-	-	-	-	-

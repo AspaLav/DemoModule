@@ -6,3 +6,6 @@ results/
 testing/
 testing*
 *.pyc
+null/
+qiime2-moving-pictures-tutorial/
+test_results/
